@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-GateApplication<gate>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ghost.gate.GateApplication",
+            "projectName": "gate",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WayApplication<way>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.gate.way.WayApplication",
+            "projectName": "way",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PepetoApplication<pepeto>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.test.pepeto.PepetoApplication",
+            "projectName": "pepeto",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
